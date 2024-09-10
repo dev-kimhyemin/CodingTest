@@ -1,1 +1,1 @@
-# CodingTest
+학습 기록 https://hyeminkim.notion.site/C-d21dfa64eda042eb8d50eba67a9bccc2?pvs=4
