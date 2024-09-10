@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistanceBetweenNodes", "Dis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DijkstraExample", "DijkstraExample\DijkstraExample.vcxproj", "{01FD8E1B-D2F5-41E0-91CA-4610886DDF53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hash", "Hash\Hash.vcxproj", "{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,5 +40,13 @@ Global
 		{01FD8E1B-D2F5-41E0-91CA-4610886DDF53}.Release|Win32.Build.0 = Release|Win32
 		{01FD8E1B-D2F5-41E0-91CA-4610886DDF53}.Release|x64.ActiveCfg = Release|x64
 		{01FD8E1B-D2F5-41E0-91CA-4610886DDF53}.Release|x64.Build.0 = Release|x64
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Debug|Win32.Build.0 = Debug|Win32
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Debug|x64.ActiveCfg = Debug|x64
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Debug|x64.Build.0 = Debug|x64
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Release|Win32.ActiveCfg = Release|Win32
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Release|Win32.Build.0 = Release|Win32
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Release|x64.ActiveCfg = Release|x64
+		{BB7CC44A-8D31-4E7A-8C30-8E0F459D9894}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
