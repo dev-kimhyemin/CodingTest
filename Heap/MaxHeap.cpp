@@ -89,21 +89,21 @@ void PrintArray()
     cout << "\n";
 }
 
-int main()
-{
-    const vector<int> numbers({41, 67, 34, 0, 69, 78, 62, 64});
-
-    cout << "Push Start" << '\n';
-    for(const int number : numbers)
-    {
-        HeapPush(number);
-        PrintArray();
-    }
-
-    cout << "\nPop Start" << '\n';
-    for(unsigned int i = 0; i < numbers.size(); ++i)
-    {
-        cout << "Popped element: " << HeapPop() << '\n';
-        PrintArray();
-    }
-}
+// int main()
+// {
+//     const vector<int> numbers({41, 67, 34, 0, 69, 78, 62, 64});
+//
+//     cout << "Push Start" << '\n';
+//     for(const int number : numbers)
+//     {
+//         HeapPush(number);
+//         PrintArray();
+//     }
+//
+//     cout << "\nPop Start" << '\n';
+//     for(unsigned int i = 0; i < numbers.size(); ++i)
+//     {
+//         cout << "Popped element: " << HeapPop() << '\n';
+//         PrintArray();
+//     }
+// }
