@@ -157,6 +157,9 @@
     <ClCompile Include="SQ1.cpp" />
     <ClCompile Include="SQ2.cpp" />
     <ClCompile Include="SQ3.cpp" />
+    <ClCompile Include="SQ4.cpp" />
+    <ClCompile Include="SQ5.cpp" />
+    <ClCompile Include="SQ6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
