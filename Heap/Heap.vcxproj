@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="Heap1.cpp" />
     <ClCompile Include="Heap2.cpp" />
+    <ClCompile Include="Heap3.cpp" />
     <ClCompile Include="MaxHeap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

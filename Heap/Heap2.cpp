@@ -41,11 +41,11 @@ int solution(vector<vector<int>> jobs)
     return sum / jobCount;
 }
 
-int main()
-{
-    const vector<vector<int>> jobs({{7, 8}, {3, 5}, {9, 6}});
-    cout << solution(jobs);
-}
+// int main()
+// {
+//     const vector<vector<int>> jobs({{7, 8}, {3, 5}, {9, 6}});
+//     cout << solution(jobs);
+// }
 
 
 
