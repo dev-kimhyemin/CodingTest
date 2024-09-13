@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort", "Sort\Sort.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BruteForce", "BruteForce\BruteForce.vcxproj", "{ECC709F1-3FBE-4F6C-B39E-A7C28FAF024C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Greedy", "Greedy\Greedy.vcxproj", "{79B08C77-DAB9-4218-BE56-C29519CB8A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -88,5 +90,13 @@ Global
 		{ECC709F1-3FBE-4F6C-B39E-A7C28FAF024C}.Release|Win32.Build.0 = Release|Win32
 		{ECC709F1-3FBE-4F6C-B39E-A7C28FAF024C}.Release|x64.ActiveCfg = Release|x64
 		{ECC709F1-3FBE-4F6C-B39E-A7C28FAF024C}.Release|x64.Build.0 = Release|x64
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Debug|Win32.Build.0 = Debug|Win32
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Debug|x64.ActiveCfg = Debug|x64
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Debug|x64.Build.0 = Debug|x64
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|Win32.ActiveCfg = Release|Win32
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|Win32.Build.0 = Release|Win32
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|x64.ActiveCfg = Release|x64
+		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
