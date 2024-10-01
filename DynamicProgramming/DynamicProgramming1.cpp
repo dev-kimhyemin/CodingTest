@@ -28,13 +28,13 @@ int solution(int N, int number)
     operationResults[0].emplace(N);
 
     // 문제로부터 부분 문제를 정의하자면 N 사용 횟수마다의 사칙연산 결과는 아래와 같다.
-    // Nn을 n개의 N으로 만들 수 있는 결과값들이라고 할 때
-    // * N1: N
-    // * N2: NN, N1과 N1 연산
-    // * N3: NNN, N1과 N2 연산, N2와 N1 연산
-    // * N4: NNNN, N1과 N3 연산, N2와 N2 연산, N3과 N1 연산
+    // Sn을 n개의 N으로 만들 수 있는 결과값들이라고 할 때
+    // * S1: N
+    // * S2: NN, S1과 S1 연산
+    // * S3: NNN, S1과 S2 연산, S2와 S1 연산
+    // * S4: NNNN, S1과 S3 연산, S2와 S2 연산, S3과 S1 연산
     // ...
-    // 이전의 결과값들로 연산을 할 때 중요한 것은 집합들의 첫 번째 Nn과 두 번째 Nn에서 n들의 합이 현재 판단하고자 하는 사용 횟수와 같아야 한다는 것이다.
+    // 이전의 결과값들로 연산을 할 때 중요한 것은 집합들의 첫 번째 Sn과 두 번째 Sn에서 n들의 합이 현재 판단하고자 하는 사용 횟수와 같아야 한다는 것이다.
     for(int i = 1; i < 8; ++i)
     {
         const int repeatedNumber = GetRepeatedNumber(N, i + 1);
@@ -87,10 +87,10 @@ int solution(int N, int number)
     return -1;
 }
 
-int main()
-{
-    cout << solution(5, 12);
-}
+// int main()
+// {
+//     cout << solution(5, 12);
+// }
 
 
 
