@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BruteForce", "BruteForce\Br
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Greedy", "Greedy\Greedy.vcxproj", "{79B08C77-DAB9-4218-BE56-C29519CB8A5E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.vcxproj", "{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -98,5 +100,13 @@ Global
 		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|Win32.Build.0 = Release|Win32
 		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|x64.ActiveCfg = Release|x64
 		{79B08C77-DAB9-4218-BE56-C29519CB8A5E}.Release|x64.Build.0 = Release|x64
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Debug|Win32.Build.0 = Debug|Win32
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Debug|x64.ActiveCfg = Debug|x64
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Debug|x64.Build.0 = Debug|x64
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Release|Win32.ActiveCfg = Release|Win32
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Release|Win32.Build.0 = Release|Win32
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Release|x64.ActiveCfg = Release|x64
+		{EA496A12-F290-4BD5-9D4D-C0C80A908D4F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
