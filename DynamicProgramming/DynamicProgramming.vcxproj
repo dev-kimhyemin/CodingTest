@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="DynamicProgramming1.cpp" />
     <ClCompile Include="DynamicProgramming2.cpp" />
+    <ClCompile Include="DynamicProgramming3.cpp" />
+    <ClCompile Include="DynamicProgramming4.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
